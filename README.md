@@ -1,6 +1,6 @@
 ### Hi there 👋
 ## 🔗 Links
-[![](https://img.shields.io/badge/My_Gist-000?style=plastic&logo=github&logoColor=white)](https://gist.github.com/Logappradeep-M)
+[![](https://img.shields.io/badge/My_Gist-000?style=plastic&logo=github&logoColor=white)](https://gist.github.com/Logappradeep-M) --> Pega Edit Validate Codes
 
 <!--
 **Logappradeep-M/Logappradeep-M** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
