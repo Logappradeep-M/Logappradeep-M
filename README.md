@@ -1,5 +1,5 @@
 ### Hi there 👋
-<a href="https://goo.su/Xj5pr"><img src="https://i.imgur.com/JAc5htp.jpeg" /></a>
+
 ## 🔗 Links
 [![](https://img.shields.io/badge/My_Gist-000?style=plastic&logo=github&logoColor=white)](https://logappradeep.netlify.app/) --> Pega Edit Validate Codes
 
