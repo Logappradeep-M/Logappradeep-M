@@ -3,7 +3,7 @@
 ## 🔗 Links
 [![](https://img.shields.io/badge/My_Gist-000?style=plastic&logo=github&logoColor=white)](https://logappradeep.netlify.app/) --> Pega Edit Validate Codes
 
-<iframe src="https://logappadeep.me" width="600" height="400" frameborder="0" scrolling="auto"></iframe>
+
 
 <!--
 **Logappradeep-M/Logappradeep-M** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
