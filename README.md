@@ -99,7 +99,7 @@ design:     Graphic Designer
 | Project | Description | Language | Stats | Last update |
 | --- | --- | --- | --- | --- |
 | [**Portfolio**](https://github.com/Logappradeep-M/Portfolio) | My portfolio | `JavaScript` | ![stars](https://img.shields.io/github/stars/Logappradeep-M/Portfolio?style=flat-square&label=%E2%AD%90&color=36BCF7) ![forks](https://img.shields.io/github/forks/Logappradeep-M/Portfolio?style=flat-square&label=%F0%9F%8D%B4&color=2c5364) | 2 years ago |
-| [**antigravity proxy openwebui**](https://github.com/Logappradeep-M/antigravity-proxy-openwebui) | — | `Python` | ![stars](https://img.shields.io/github/stars/Logappradeep-M/antigravity-proxy-openwebui?style=flat-square&label=%E2%AD%90&color=36BCF7) ![forks](https://img.shields.io/github/forks/Logappradeep-M/antigravity-proxy-openwebui?style=flat-square&label=%F0%9F%8D%B4&color=2c5364) | 6 months ago |
+| [**antigravity proxy openwebui**](https://github.com/Logappradeep-M/antigravity-proxy-openwebui) | — | `Python` | ![stars](https://img.shields.io/github/stars/Logappradeep-M/antigravity-proxy-openwebui?style=flat-square&label=%E2%AD%90&color=36BCF7) ![forks](https://img.shields.io/github/forks/Logappradeep-M/antigravity-proxy-openwebui?style=flat-square&label=%F0%9F%8D%B4&color=2c5364) | 7 months ago |
 | [**whatsapp obfuscation**](https://github.com/Logappradeep-M/whatsapp-obfuscation) | — | — | ![stars](https://img.shields.io/github/stars/Logappradeep-M/whatsapp-obfuscation?style=flat-square&label=%E2%AD%90&color=36BCF7) ![forks](https://img.shields.io/github/forks/Logappradeep-M/whatsapp-obfuscation?style=flat-square&label=%F0%9F%8D%B4&color=2c5364) | 1 year ago |
 | [**Lp Tech**](https://github.com/Logappradeep-M/Lp_Tech) | Check My Website For more Information | `HTML` | ![stars](https://img.shields.io/github/stars/Logappradeep-M/Lp_Tech?style=flat-square&label=%E2%AD%90&color=36BCF7) ![forks](https://img.shields.io/github/forks/Logappradeep-M/Lp_Tech?style=flat-square&label=%F0%9F%8D%B4&color=2c5364) | 1 year ago |
 | [**HTML Feedback**](https://github.com/Logappradeep-M/HTML_Feedback) | HTML Feedback form to Excel | `HTML` | ![stars](https://img.shields.io/github/stars/Logappradeep-M/HTML_Feedback?style=flat-square&label=%E2%AD%90&color=36BCF7) ![forks](https://img.shields.io/github/forks/Logappradeep-M/HTML_Feedback?style=flat-square&label=%F0%9F%8D%B4&color=2c5364) | 2 years ago |
@@ -114,7 +114,7 @@ design:     Graphic Designer
 <!-- RECENT:START -->
 - [**rea**](https://github.com/Logappradeep-M/rea) 🍴 — updated 1 week ago
 - [**Microsoft-Office-For-MacOS**](https://github.com/Logappradeep-M/Microsoft-Office-For-MacOS) 🍴 — updated 2 weeks ago
-- [**antigravity-proxy-openwebui**](https://github.com/Logappradeep-M/antigravity-proxy-openwebui) · `Python` — updated 6 months ago
+- [**antigravity-proxy-openwebui**](https://github.com/Logappradeep-M/antigravity-proxy-openwebui) · `Python` — updated 7 months ago
 - [**Market_research_app**](https://github.com/Logappradeep-M/Market_research_app) 🍴 — updated 7 months ago
 - [**whatsapp-obfuscation**](https://github.com/Logappradeep-M/whatsapp-obfuscation) — updated 1 year ago
 <!-- RECENT:END -->
@@ -181,7 +181,7 @@ design:     Graphic Designer
 </p>
 
 <!-- UPDATED:START -->
-<p align="center"><sub>🔄 Auto-updated 1 Nov 2026, 16:33 IST</sub></p>
+<p align="center"><sub>🔄 Auto-updated 1 Nov 2026, 23:09 IST</sub></p>
 <!-- UPDATED:END -->
 
 <p align="center">
