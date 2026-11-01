@@ -94,6 +94,8 @@ design:     Graphic Designer
 </p>
 
 <!-- FEATURED:START -->
+<p align="center"><sub>🌐 28 public repositories</sub></p>
+
 | Project | Description | Language | Stats | Last update |
 | --- | --- | --- | --- | --- |
 | [**Portfolio**](https://github.com/Logappradeep-M/Portfolio) | My portfolio | `JavaScript` | ![stars](https://img.shields.io/github/stars/Logappradeep-M/Portfolio?style=flat-square&label=%E2%AD%90&color=36BCF7) ![forks](https://img.shields.io/github/forks/Logappradeep-M/Portfolio?style=flat-square&label=%F0%9F%8D%B4&color=2c5364) | 2 years ago |
@@ -179,7 +181,7 @@ design:     Graphic Designer
 </p>
 
 <!-- UPDATED:START -->
-<p align="center"><sub>🔄 Auto-updated 1 Nov 2026, 16:14 IST</sub></p>
+<p align="center"><sub>🔄 Auto-updated 1 Nov 2026, 16:33 IST</sub></p>
 <!-- UPDATED:END -->
 
 <p align="center">
