@@ -20,11 +20,22 @@ if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITH
 // Needs a personal token (repo scope) belonging to USER; the workflow's GITHUB_TOKEN can't see other repos.
 const privateToken = process.env.PRIVATE_REPOS_TOKEN;
 
+// The workflow's GITHUB_TOKEN is scoped to this repo and gets 403 on endpoints like /users/:user/gists,
+// so on 401/403 retry with the personal token, then anonymously (public data, 60 req/h is plenty).
 async function gh(path, token) {
-  const h = token ? { ...headers, Authorization: `Bearer ${token}` } : headers;
-  const res = await fetch(`https://api.github.com${path}`, { headers: h });
-  if (!res.ok) throw new Error(`${path} -> ${res.status} ${await res.text()}`);
-  return res.json();
+  const tokens = token ? [token] : [process.env.GITHUB_TOKEN, privateToken, null];
+  let last;
+  for (const t of [...new Set(tokens)]) {
+    if (t === undefined) continue;
+    const h = { ...headers };
+    if (t) h.Authorization = `Bearer ${t}`;
+    else delete h.Authorization;
+    const res = await fetch(`https://api.github.com${path}`, { headers: h });
+    if (res.ok) return res.json();
+    last = new Error(`${path} -> ${res.status} ${await res.text()}`);
+    if (token || (res.status !== 401 && res.status !== 403)) break;
+  }
+  throw last;
 }
 
 const esc = (s) => String(s ?? "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ").trim();
@@ -138,17 +149,22 @@ async function loadRepos() {
   return gh(`/users/${USER}/repos?per_page=100&type=owner`);
 }
 
+// A failed fetch leaves that section as it was instead of failing the whole run.
+const settle = (p, what) => p.catch((err) => (console.warn(`Skipping ${what}: ${err.message}`), null));
 const [repos, gistList, events] = await Promise.all([
-  loadRepos(),
-  gh(`/users/${USER}/gists?per_page=${GISTS_LIMIT}`),
-  gh(`/users/${USER}/events/public?per_page=50`),
+  settle(loadRepos(), "repositories"),
+  settle(gh(`/users/${USER}/gists?per_page=${GISTS_LIMIT}`), "gists"),
+  settle(gh(`/users/${USER}/events/public?per_page=50`), "activity"),
 ]);
+if (!repos && !gistList && !events) throw new Error("Every GitHub API call failed; README left unchanged");
 
 let readme = readFileSync(README, "utf8");
-readme = inject(readme, "FEATURED", featured(repos));
-readme = inject(readme, "RECENT", recent(repos));
-readme = inject(readme, "GISTS", gists(gistList));
-readme = inject(readme, "ACTIVITY", activity(events));
+if (repos) {
+  readme = inject(readme, "FEATURED", featured(repos));
+  readme = inject(readme, "RECENT", recent(repos));
+}
+if (gistList) readme = inject(readme, "GISTS", gists(gistList));
+if (events) readme = inject(readme, "ACTIVITY", activity(events));
 readme = inject(readme, "UPDATED", `<p align="center"><sub>🔄 Auto-updated ${new Date().toLocaleString("en-GB", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Kolkata" })} IST</sub></p>`);
 writeFileSync(README, readme);
 console.log("README updated");
