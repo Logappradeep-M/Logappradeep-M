@@ -25,6 +25,8 @@ jobs:
         run: node .github/scripts/update-readme.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Personal token with `repo` scope; lets the script list your private repos.
+          PRIVATE_REPOS_TOKEN: ${{ secrets.METRICS_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
 
       - name: Commit if changed
