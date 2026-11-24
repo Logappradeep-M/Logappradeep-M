@@ -99,7 +99,7 @@ design:     Graphic Designer
 | Project | Description | Language | Stats | Last update |
 | --- | --- | --- | --- | --- |
 | [**Portfolio**](https://github.com/Logappradeep-M/Portfolio) | My portfolio | `JavaScript` | ![stars](https://img.shields.io/github/stars/Logappradeep-M/Portfolio?style=flat-square&label=%E2%AD%90&color=36BCF7) ![forks](https://img.shields.io/github/forks/Logappradeep-M/Portfolio?style=flat-square&label=%F0%9F%8D%B4&color=2c5364) | 2 years ago |
-| [**mock api**](https://github.com/Logappradeep-M/mock-api) | — | `JavaScript` | ![stars](https://img.shields.io/github/stars/Logappradeep-M/mock-api?style=flat-square&label=%E2%AD%90&color=36BCF7) ![forks](https://img.shields.io/github/forks/Logappradeep-M/mock-api?style=flat-square&label=%F0%9F%8D%B4&color=2c5364) | 4 hours ago |
+| [**mock api**](https://github.com/Logappradeep-M/mock-api) | — | `JavaScript` | ![stars](https://img.shields.io/github/stars/Logappradeep-M/mock-api?style=flat-square&label=%E2%AD%90&color=36BCF7) ![forks](https://img.shields.io/github/forks/Logappradeep-M/mock-api?style=flat-square&label=%F0%9F%8D%B4&color=2c5364) | 15 hours ago |
 | [**antigravity proxy openwebui**](https://github.com/Logappradeep-M/antigravity-proxy-openwebui) | — | `Python` | ![stars](https://img.shields.io/github/stars/Logappradeep-M/antigravity-proxy-openwebui?style=flat-square&label=%E2%AD%90&color=36BCF7) ![forks](https://img.shields.io/github/forks/Logappradeep-M/antigravity-proxy-openwebui?style=flat-square&label=%F0%9F%8D%B4&color=2c5364) | 7 months ago |
 | [**whatsapp obfuscation**](https://github.com/Logappradeep-M/whatsapp-obfuscation) | — | — | ![stars](https://img.shields.io/github/stars/Logappradeep-M/whatsapp-obfuscation?style=flat-square&label=%E2%AD%90&color=36BCF7) ![forks](https://img.shields.io/github/forks/Logappradeep-M/whatsapp-obfuscation?style=flat-square&label=%F0%9F%8D%B4&color=2c5364) | 1 year ago |
 | [**Lp Tech**](https://github.com/Logappradeep-M/Lp_Tech) | Check My Website For more Information | `HTML` | ![stars](https://img.shields.io/github/stars/Logappradeep-M/Lp_Tech?style=flat-square&label=%E2%AD%90&color=36BCF7) ![forks](https://img.shields.io/github/forks/Logappradeep-M/Lp_Tech?style=flat-square&label=%F0%9F%8D%B4&color=2c5364) | 1 year ago |
@@ -112,7 +112,7 @@ design:     Graphic Designer
 
 ### 🔨 Recently Worked On
 <!-- RECENT:START -->
-- [**mock-api**](https://github.com/Logappradeep-M/mock-api) · `JavaScript` — updated 4 hours ago
+- [**mock-api**](https://github.com/Logappradeep-M/mock-api) · `JavaScript` — updated 15 hours ago
 - [**rea**](https://github.com/Logappradeep-M/rea) 🍴 — updated 1 month ago
 - [**Microsoft-Office-For-MacOS**](https://github.com/Logappradeep-M/Microsoft-Office-For-MacOS) 🍴 — updated 1 month ago
 - [**antigravity-proxy-openwebui**](https://github.com/Logappradeep-M/antigravity-proxy-openwebui) · `Python` — updated 7 months ago
@@ -141,9 +141,9 @@ design:     Graphic Designer
 ## ⚡ Recent GitHub Activity
 
 <!-- ACTIVITY:START -->
-1. 🌱 Created branch `open-access` in [Logappradeep-M/mock-api](https://github.com/Logappradeep-M/mock-api) · <sub>4 hours ago</sub>
-2. 🔓 Made [Logappradeep-M/mock-api](https://github.com/Logappradeep-M/mock-api) public · <sub>3 days ago</sub>
-3. 🔓 Made [Logappradeep-M/mock-api](https://github.com/Logappradeep-M/mock-api) public · <sub>3 days ago</sub>
+1. 🌱 Created branch `open-access` in [Logappradeep-M/mock-api](https://github.com/Logappradeep-M/mock-api) · <sub>15 hours ago</sub>
+2. 🔓 Made [Logappradeep-M/mock-api](https://github.com/Logappradeep-M/mock-api) public · <sub>4 days ago</sub>
+3. 🔓 Made [Logappradeep-M/mock-api](https://github.com/Logappradeep-M/mock-api) public · <sub>4 days ago</sub>
 4. ⭐ Starred [MuhammadaliMS/brink](https://github.com/MuhammadaliMS/brink) · <sub>1 week ago</sub>
 5. ⭐ Starred [MuhammadaliMS/brink-releases](https://github.com/MuhammadaliMS/brink-releases) · <sub>1 week ago</sub>
 6. ⬆️ Pushed 1 commit to [Logappradeep-M/Logappradeep-M](https://github.com/Logappradeep-M/Logappradeep-M) · <sub>3 weeks ago</sub>
@@ -184,7 +184,7 @@ design:     Graphic Designer
 </p>
 
 <!-- UPDATED:START -->
-<p align="center"><sub>🔄 Auto-updated 23 Nov 2026, 22:55 IST</sub></p>
+<p align="center"><sub>🔄 Auto-updated 24 Nov 2026, 09:19 IST</sub></p>
 <!-- UPDATED:END -->
 
 <p align="center">
